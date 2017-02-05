@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
-  get 'about/index'
-
-  get 'photos/index'
+  get 'welcome', to: 'welcome#index'
+  get 'about', to: 'about#index'
+  get 'photos', to: 'photos#index'
 
   resources :bookings
 
   root 'welcome#index'
-  get 'welcome/index'
 end
