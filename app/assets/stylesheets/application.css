@@ -1,2 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#sidebar{
+  display: block;
+  float: left;
+}
+
+main{
+  display: block;
+}
