@@ -11,6 +11,7 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'autoprefixer-rails'
+gem 'fancybox-rails'
 
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
