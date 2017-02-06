@@ -3,3 +3,5 @@
 %p
   Click on a photo to enlarge it.
 %div{id: 'gallery'}
+  -@photos.each do |p|
+    =link_to image_tag(p.link, height: '100', alt: p.caption[0..50]), {class: 'fancybox', rel: 'photo'}
